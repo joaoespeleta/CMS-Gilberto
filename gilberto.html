@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfólio - Gilberto Gil</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f4f4f9;
+      color: #333;
+      display: flex;
+    }
+
+    .sidebar {
+      width: 250px;
+      background-color: #2d3e50;
+      color: white;
+      padding: 20px;
+      position: fixed;
+      height: 100vh;
+    }
+
+    .sidebar h2 {
+      margin-bottom: 30px;
+      font-size: 24px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+    }
+
+    .sidebar ul li {
+      margin: 20px 0;
+    }
+
+    .sidebar ul li a {
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .sidebar ul li a:hover {
+      color: #00d1b2;
+    }
+
+    .content {
+      margin-left: 270px;
+      padding: 30px;
+      flex: 1;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    section h2 {
+      font-size: 28px;
+      color: #2d3e50;
+      margin-bottom: 15px;
+    }
+
+    .bio img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    .music ul, .agenda ul, .comments ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .music li, .agenda li, .comments li {
+      background: white;
+      padding: 12px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2d3e50;
+      color: white;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="sidebar">
+    <h2>Gilberto Gil</h2>
+    <ul>
+      <li><a href="#galeria">🎨 Galeria</a></li>
+      <li><a href="#musica">🎵 Discografia</a></li>
+      <li><a href="#biografia">📄 Biografia</a></li>
+      <li><a href="#agenda">📅 Agenda</a></li>
+      <li><a href="#comentarios">💬 Comentários</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <section id="galeria" class="gallery">
+      <h2>🎨 Galeria de Obras</h2>
+      <img src="https://novabrasilfm.com.br/app/uploads/2024/11/gilbertogil.webp" alt="Gilberto Gil ao vivo">
+      <img src="https://s2-g1.glbimg.com/dnDrA5aintiyKuiVAW9aKIvnnBM=/199x140:1804x1077/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/J/p/VwzzXQSGeheaYmfDuBgg/microsoftteams-image.png" alt="Gil em show">
+    </section>
+
+    <section id="musica" class="music">
+      <h2>🎵 Músicas & Discografia</h2>
+      <ul>
+        <li><strong>Domingo no Parque</strong> – Álbum: Tropicália (1968)</li>
+        <li><strong>Expresso 2222</strong> – Álbum: Expresso 2222 (1972)</li>
+        <li><strong>Drão</strong> – Álbum: Um Banda Um (1982)</li>
+        <li><strong>Aquele Abraço</strong> – Álbum: Gilberto Gil (1969)</li>
+        <li><strong>Refazenda</strong> – Álbum: Refazenda (1975)</li>
+      </ul>
+    </section>
+
+    <section id="biografia" class="bio">
+      <h2>📄 Biografia</h2>
+      <img src="https://gilbertogil.com.br/wp-content/uploads/2022/04/gilbertogil.com.br-abl-previa12-400x300.jpg" alt="Gilberto Gil retrato" >
+      <p><strong>Gilberto Gil</strong> nasceu em Salvador, Bahia, em 1942. É cantor, compositor, multi-instrumentista e ex-ministro da Cultura do Brasil.</p>
+      <p>É uma das figuras mais importantes da música brasileira, tendo papel central no movimento tropicalista. Sua obra mistura MPB, samba, reggae e música internacional com temas sociais, culturais e políticos.</p>
+      <p>Gil ganhou diversos prêmios, incluindo Grammys e o prêmio Polar Music. É também membro da Academia Brasileira de Letras desde 2021.</p>
+    </section>
+
+    <section id="agenda" class="agenda">
+      <h2>📅 Agenda de Shows</h2>
+      <ul>
+        <li><strong>São Paulo</strong> – 12/04/2025 – Espaço das Américas</li>
+        <li><strong>Rio de Janeiro</strong> – 20/04/2025 – Vivo Rio</li>
+        <li><strong>Salvador</strong> – 01/05/2025 – Concha Acústica</li>
+      </ul>
+    </section>
+
+    <section id="comentarios" class="comments">
+      <h2>💬 Comentários</h2>
+      <ul>
+        <li><strong>Mariana:</strong> “Gil é uma lenda viva! Incrível conhecer mais sobre ele.”</li>
+        <li><strong>Pedro Rocha:</strong> “Vi um show dele em 2019, foi emocionante!”</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>© 2025 - Projeto realizazdo por: João Espeleta, Ana Beatriz e Heloysa Assis 🎶</p>
+    </footer>
+  </div>
+
+</body>
+</html>
